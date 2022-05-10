@@ -1,0 +1,12 @@
+.imagem-fundo{
+    background-image: url(/imagem_css/index-321MILHAS.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+   
