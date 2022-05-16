@@ -100,34 +100,36 @@ body {
 #japanHistory { /*é tipo home*/
     width: 100%;
     height: 400px;
-    background-color: #2b2929;
+    background-color: #a3a3a3;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .oque-e-nihon {
-    background-color: #2b2929;
-    color: #FF2A4A;
+    background-color: #a3a3a3;
+    color: #e95555;
     font-size: 2rem;
     margin-top: 0px;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 0px;
+    text-shadow: 0.5px 0.5px 1px #000000;
 }
 
 .example-letra {
-    padding-left: 250px;
-    padding-top: 53px;
+    margin-left: 250px;
+    margin-top: 53px;
     width: 12cm;
     height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
 }
 
 .frase-pq-japao {
-    color: #d1d1d1;
+    color: #ffffff;
     font-family: system-ui;
     font-size: 15px;
     padding-left: 20px;
@@ -138,22 +140,22 @@ body {
 #japanHistoryP2 { /*é tipo home*/
     width: 100%;
     height: 450px;
-    box-shadow: 3px 3px 6px #000000;
-    background-color: #4d494a;
+    background-color: #ebebeb;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
 }
 
 .example-letra-p2 {
-    padding-right: 280px;
-    padding-top: 100px;
+    margin-right: 280px;
+    margin-top: 100px;
     width: 14cm;
     height: 7cm;
+    box-shadow: 3px 3px 6px #000000;
 }
 
 .frase-pq-japao-p2 {
-    color: #d1d1d1;
+    color: #747171;
     font-family: system-ui;
     font-size: 15px;
     display: flex;
@@ -163,18 +165,24 @@ body {
     margin-top: 160px;
 }
 
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
 #turismo-page {
     width: 100%;
     height: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-top: 50px;
-    background-image: linear-gradient(to bottom, #80a1fd, #3357bd);
+    background-image: linear-gradient(to bottom, #ebebeb, #cfcfcf);
 }
 
 .melhores-turismo {
-    background-color: #80a1fd;
-    color: #ffffff;
+    background-color: #ebebeb;
+    color: #444444;
     font-size: 40px;
     margin-top: 0px;
     padding-top: 50px;
@@ -182,7 +190,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     margin-bottom: 0px;
 }
 
@@ -192,9 +200,6 @@ body {
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    margin-left: 200px;
-    margin-right: 50px;
-    margin-top: 0px;
     transition: width 0.3s, height 0.3s;
     filter: opacity(70%);
 }
@@ -212,9 +217,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
     transition: width 0.3s, height 0.3s;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 0px;
     filter: opacity(70%);
 }
 
@@ -230,9 +232,6 @@ body {
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    margin-right: 200px;
-    margin-left: 50px;
-    margin-top: 0px;
     transition: width 0.3s, height 0.3s;
     filter: opacity(70%);
 }
@@ -243,60 +242,97 @@ body {
     filter: opacity(100%);
 }
 
+.three-types-turismo4 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.3s, height 0.3s;
+    filter: opacity(70%);
+}
+
+.three-types-turismo4:hover {
+    width: 220px;
+    height: 320px;
+    filter: opacity(100%);
+}
+
+.three-types-turismo5 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.3s, height 0.3s;
+    filter: opacity(70%);
+}
+
+.three-types-turismo5:hover {
+    width: 220px;
+    height: 320px;
+    filter: opacity(100%);
+}
+
 #creditos {
     background-color: rgb(34, 31, 31);
     width: 100%;
-    height: 220px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
 }
 
-.equipes {
-    background-color: rgb(34, 31, 31);
-    color: #1cf827;
-    font-size: 30px;
-    margin-top: 0px;
-    padding-top: 10px;
-    text-shadow: 2px 2px 4px #000000;
+
+.div-equipes {
+    padding: 0;
+    margin: 30px;
+    width: 25%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    min-height: 1px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+}
+
+.title-equipes {
+    color: rgb(255, 255, 255);
+    border: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 0px;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    vertical-align: baseline;
 }
 
-.credito-icon-nippon-tour {
-    width: 200px;
-    height: 200px;
-    
+.names-equioes {
+    color: rgb(175, 175, 175);
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    vertical-align: baseline;
 }
 
-.person-icon {
-    height: 30px;
-    width: 30px;
-    object-fit: cover;
-}
-
-.equipe-name {
+.names-equioes:hover {
     color: white;
-    align-self: flex-start;
 }
 
-.person-icon-position-A {
+.icon-nippon {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-items: center;
+    margin-left: 17.8%;
 }
 
-.person-icon-position-G {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+.image-nippon {
+    width: 150px;
+    height: 150px;
 }
 
-.credito-icon-nippon-tour {
-    align-self: center;
-}
-
-.nippon-icon {
-    display: flex;
-    justify-content: center;
-}
