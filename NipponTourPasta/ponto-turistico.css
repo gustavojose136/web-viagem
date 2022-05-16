@@ -1,35 +1,41 @@
-body {
-    margin: 0px;
-    height: 100%;
-    width: 100%;
-}
-.icon-nabana-tour {
+.icon-nippon-tour {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 50px;
     width: 50px;
 }
+
 .back1 {
-    background: rgb(34, 31, 31);
+    background: rgb(31, 30, 30);
     width: 100%;
     height: 50px;
-    position: cover;
+    position: fixed;
     box-shadow: 1px 1px 2px #000000;
-}
-#home {
-    background: url(image.css/montainrgb.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 1000px;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
+
+.back1 > a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    display: block;
+    color: #b9b8b8;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+.back1 > a:hover {
+    color: white;
+}
+
 .title-nabana { 
     color: rgb(245, 235, 235);
-    font-size: 20rem;
+    font-size: 18rem;
     text-shadow: 2px 2px 4px #000000;
     align-self: center;
 }
@@ -44,7 +50,7 @@ body {
 }
 
 #link {
-    background: rgb(240, 63, 63);
+    background: rgb(70, 58, 243);
     width: 270px;
     height: 55px;
     box-shadow: 1px 1px 2px #000000;
@@ -61,35 +67,39 @@ body {
     height: 85px;
 }
 
-#link>a {
+#link > a {
     transition: width 0.5s, height 0.5s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     text-decoration: none;  
-    color: #4d494a;
+    color: #d3d3d3;
 }
 
-#link>a:hover {
-    color: #000000;
+#link > a:hover {
+    color: #ffffff;
 }
-.lugares {
-    background-color: #2b2929;
-    color: #FF2A4A;
-    font-size: 2rem;
-    margin-top: 0px;
-    padding-top: 10px;
-    text-shadow: 1px 1px 2px #000000;
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#home {
+    background: url(image.css/fujinabana.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: monospace;
-    margin-bottom: 0px;
+    justify-content: center;
 }
 
-#paisagens{
+#paisagem {
+    background-color: #1b1b22;
     width: 100%;
-    height: 400px;
-    background-color: #2b2929;
-    display: flex;
-    flex-direction: row;
+    height: 900px;
+    background-image: linear-gradient(to right bottom, #353b4b, #1b1b22);
 }
