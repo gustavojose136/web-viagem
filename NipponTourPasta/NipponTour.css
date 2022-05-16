@@ -25,7 +25,7 @@
     text-align: center;
     padding-top: 3px;
     padding-left: 0px;
-    padding-right: 100px;
+    margin-right: 100px;
     text-decoration: none;
 }
 
@@ -165,9 +165,9 @@ body {
 
 #turismo-page {
     width: 100%;
-    height: 600px;
+    height: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 50px;
     background-image: linear-gradient(to bottom, #80a1fd, #3357bd);
 }
@@ -196,11 +196,13 @@ body {
     margin-right: 50px;
     margin-top: 0px;
     transition: width 0.3s, height 0.3s;
+    filter: opacity(70%);
 }
 
 .three-types-turismo:hover {
     width: 220px;
     height: 320px;
+    filter: opacity(100%);
 }
 
 .three-types-turismo2 {
@@ -213,11 +215,13 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 0px;
+    filter: opacity(70%);
 }
 
 .three-types-turismo2:hover {
     width: 220px;
     height: 320px;
+    filter: opacity(100%);
 }
 
 .three-types-turismo3 {
@@ -230,11 +234,13 @@ body {
     margin-left: 50px;
     margin-top: 0px;
     transition: width 0.3s, height 0.3s;
+    filter: opacity(70%);
 }
 
 .three-types-turismo3:hover {
     width: 220px;
     height: 320px;
+    filter: opacity(100%);
 }
 
 #creditos {
