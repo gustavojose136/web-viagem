@@ -192,6 +192,8 @@ body {
     align-items: center;
     font-family: sans-serif;
     margin-bottom: 0px;
+    text-decoration: underline;
+    text-decoration-color: #645f70;
 }
 
 .three-types-turismo {
