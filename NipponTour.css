@@ -121,8 +121,8 @@ body {
 }
 
 .example-letra {
-    margin-left: 250px;
-    margin-top: 53px;
+    margin-left: 10rem;
+    margin-top: 3rem;
     width: 12cm;
     height: 6cm;
     box-shadow: 3px 3px 6px #000000;
@@ -134,7 +134,7 @@ body {
     font-size: 15px;
     padding-left: 20px;
     padding-right: 200px;
-    margin-top: 110px;
+    margin-top: 5rem;
 }
 
 #japanHistoryP2 { /*é tipo home*/
@@ -338,4 +338,3 @@ body {
     width: 150px;
     height: 150px;
 }
-

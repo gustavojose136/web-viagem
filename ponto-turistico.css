@@ -140,7 +140,7 @@ body {
 }
 
 .image-paisagem {
-    margin-left: 250px;
+    margin-left: 10rem;
     margin-top: 53px;
     width: 12cm;
     height: 6cm;
@@ -154,7 +154,7 @@ body {
     font-family: sans-serif;
     font-size: 18px;
     margin-top: 150px;
-    padding-left: 50px;
+    padding-left: 5rem;
     padding-right: 100px;
 }
 
@@ -164,8 +164,8 @@ body {
 }
 
 .image-paisagem2 {
-    margin-right: 430px;
-    margin-top: 53px;
+    margin-right: 10rem;
+    margin-top: 55px;
     width: 12cm;
     height: 6cm;
     box-shadow: 3px 3px 6px #000000;
@@ -179,7 +179,7 @@ body {
     font-size: 18px;
     margin-top: 7%;
     padding-left: 5%;
-    padding-right: 3%;
+    padding-right: 5rem;
 }
 
 .positions3 {
@@ -188,7 +188,7 @@ body {
 }
 
 .image-paisagem3 {
-    margin-left: 250px;
+    margin-left: 10rem;
     margin-top: 53px;
     width: 12cm;
     height: 6cm;
@@ -202,7 +202,7 @@ body {
     font-family: sans-serif;
     font-size: 18px;
     margin-top: 8%;
-    padding-left: 5%;
+    padding-left: 5rem;
     padding-right: 1%;
 }
 
@@ -213,7 +213,7 @@ body {
 }
 
 .image-paisagem4 {
-    margin-right: 400px;
+    margin-right: 10rem;
     margin-top: 53px;
     width: 12cm;
     height: 6cm;
@@ -228,7 +228,7 @@ body {
     font-size: 18px;
     margin-top: 8%;
     padding-left: 5%;
-    padding-right: 3%;
+    padding-right: 5rem;
 }
 
 
@@ -238,7 +238,7 @@ body {
 }
 
 .image-paisagem5 {
-    margin-left: 250px;
+    margin-left: 10rem;
     margin-top: 53px;
     width: 12cm;
     height: 6cm;
@@ -252,7 +252,7 @@ body {
     font-family: sans-serif;
     font-size: 18px;
     margin-top: 8%;
-    padding-left: 5%;
+    padding-left: 5rem;
     padding-right: 1%;
 }
 
@@ -263,7 +263,7 @@ body {
 }
 
 .image-paisagem6 {
-    margin-right: 400px;
+    margin-right: 10rem;
     margin-top: 53px;
     width: 12cm;
     height: 6cm;
@@ -278,7 +278,7 @@ body {
     font-size: 18px;
     margin-top: 8%;
     padding-left: 5%;
-    padding-right: 3%;
+    padding-right: 5rem;
 }
 
 
@@ -288,7 +288,7 @@ body {
 }
 
 .image-paisagem7 {
-    margin-left: 250px;
+    margin-left: 10rem;
     margin-top: 53px;
     width: 12cm;
     height: 6cm;
@@ -302,7 +302,7 @@ body {
     font-family: sans-serif;
     font-size: 18px;
     margin-top: 8%;
-    padding-left: 5%;
+    padding-left: 5rem;
     padding-right: 1%;
 }
 
