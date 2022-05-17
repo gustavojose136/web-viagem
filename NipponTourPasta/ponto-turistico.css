@@ -25,7 +25,7 @@
     text-align: center;
     padding-top: 3px;
     padding-left: 0px;
-    padding-right: 100px;
+    margin-right: 100px;
     text-decoration: none;
 }
 
@@ -100,20 +100,348 @@ body {
 #paisagem {
     background-color: #1b1b22;
     width: 100%;
-    height: 900px;
-    background-image: linear-gradient(to right bottom, #161e33, #190d2c);
+    height: 2150px;
+    background-image: linear-gradient(to  bottom, #161e33, #190d2c);
 }
 
+.lugares-interativos {
+    background-color: #161e33;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding-left: 240px;
+    padding-top: 50px;
+    text-shadow: 0.5px 0.5px 1px #fcd2f6;
+}
 
+.sato {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #a4bdff;
+    text-shadow: 0.5px 0.5px 1px #1cbfff;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.sete {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #d9a9f0;
+    text-shadow: 0.5px 0.5px 1px #fc7ceb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.positions {
+    display: flex;
+    flex-direction: row;
+}
 
+.image-paisagem {
+    margin-left: 250px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
 
+.frase-paisagem {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
 
+.positions2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
+.image-paisagem2 {
+    margin-right: 430px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
 
+.frase-paisagem2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 120px;
+    padding-left: 250px;
+    padding-right: 200px;
+}
 
+.positions3 {
+    display: flex;
+    flex-direction: row;
+}
 
+.image-paisagem3 {
+    margin-left: 250px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.frase-paisagem3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 130px;
+    padding-left: 100px;
+    padding-right: 350px;
+}
+
+.positions4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.image-paisagem4 {
+    margin-right: 400px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.frase-paisagem4 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 150px;
+    padding-left: 240px;
+    padding-right: 100px;
+}
+
+.positions5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-paisagem5 {
+    margin-left: 250px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.frase-paisagem5 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 130px;
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+.positions6 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.image-paisagem6 {
+    margin-right: 400px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.frase-paisagem6 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 150px;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+
+.positions7 {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-paisagem7 {
+    margin-left: 250px;
+    margin-top: 53px;
+    width: 12cm;
+    height: 6cm;
+    box-shadow: 3px 3px 6px #000000;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.frase-paisagem7 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 140px;
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+.hr-line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+#restaurante {
+    background: url(image.css/naiten.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.cards {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.three-types-turismo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo2:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo3 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo3:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo4 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo4:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo5 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo5:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo6 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo6:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo7 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo7:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.three-types-turismo8 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: width 0.2s, height 0.2s;
+}
+
+.three-types-turismo8:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.comidas-tipicas {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-style: italic;
+    padding-left: 100px;
+    text-shadow: 0.5px 0.5px 1px #ffffff;
+}
 
 /*AQUI É CREDITOS, POR ISSO PULEI*/
 #creditos {
