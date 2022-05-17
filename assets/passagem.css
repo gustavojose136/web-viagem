@@ -51,7 +51,7 @@
 }
 
 #link {
-    background: rgb(240, 149, 63);
+    background: rgb(240, 63, 63);
     width: 270px;
     height: 55px;
     box-shadow: 1px 1px 2px #000000;
@@ -109,7 +109,7 @@ body {
 
 .tipos-de-combos {
     background-color: #190d2c;
-    color: #b951e2;
+    color: #e95555;
     font-size: 2rem;
     margin-top: 0px;
     padding-top: 10px;
@@ -118,7 +118,7 @@ body {
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 0px;
-    text-shadow: 0.5px 0.5px 1px #f5bcf2;
+    text-shadow: 0.5px 0.5px 1px #000000;
 }
 
 .example-letra {
@@ -134,7 +134,7 @@ body {
     height: 450px;
     background-image:linear-gradient(to bottom, #161e33, #190d2c);
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: center;
 }
 
@@ -148,10 +148,8 @@ body {
 }
 
 .combo-text {
-    font-size: 50px;
-    padding-top: 200px;
+    padding-top: 100px;
     color:white;
-    list-style:none
 }
 #link2 {
     background: rgb(37, 4, 146);
@@ -176,13 +174,30 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;
     text-decoration: none;  
-    color: #cfcccd;
+    color: #4d494a;
 }
 
 #link2 > a:hover {
-    color: #ffffff;
+    color: #000000;
+}
+.example-letra-p2 {
+    margin-right: 280px;
+    margin-top: 100px;
+    width: 14cm;
+    height: 7cm;
+    box-shadow: 3px 3px 6px #000000;
 }
 
+.frase-pq-japao-p2 {
+    color: #747171;
+    font-family: system-ui;
+    font-size: 15px;
+    display: flex;
+    justify-items: flex-end;
+    padding-right: 20px;
+    padding-left: 200px;
+    margin-top: 160px;
+}
 
 .line {
     width: 100%;
@@ -191,8 +206,8 @@ body {
 }
 
 .especs-combo-1 {
-    background-color: #161e33;
-    color: #b951e2;
+    background-color: #190d2c;
+    color: #e95555;
     font-size: 2rem;
     margin-top: 0px;
     padding-top: 10px;
@@ -201,108 +216,27 @@ body {
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 0px;
-    text-shadow: 0.5px 0.5px 1px #f5bcf2;
+    text-shadow: 0.5px 0.5px 1px #000000;
 }
 
-#japanHistory { /*é tipo home*/
-    width: 100%;
-    height: 400px;
-    background-image: linear-gradient(to bottom, #161e33, #190d2c);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#japanHistory2 { /*é tipo home*/
-    width: 100%;
-    height: 400px;
-    background-image: linear-gradient(to bottom, #190d2c, #161e33);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.example-letra {
-    margin-left: 250px;
-    margin-top: 53px;
-    width: 12cm;
-    height: 6cm;
-    box-shadow: 3px 3px 6px #000000;
-}
-
-.frase-pq-japao {
-    color: #ffffff;
-    font-family: system-ui;
-    font-size: 15px;
-    padding-left: 100px;
-    padding-right: 400px;
-    margin-top: 120px;
-}
-
-.frasezin {
-    color: #ffffff;
-    font-family: system-ui;
-    font-size: 20px;
-    padding-top: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.title-pq-japao2 {
-    color: #ffffff;
-    font-family: system-ui;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#newLista {
-    width: 100%;
-    height: 100px;
-    background-color: #190d2c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.line {
-    background-color: white;
-    width: 100%;
-    height: 2px;
-}
-
-.frase-pq-japao2 {
-    color: #ffffff;
-    font-family: system-ui;
-    font-size: 15px;
-    padding-left: 100px;
-    padding-right: 180px;
-    margin-top: 85px;
-}
 
 .como-chegar {
-    background-color: #190d2c;
-    color: #ffffff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ebebeb;
+    color: #444444;
     font-size: 40px;
-    text-shadow: 0.5px 0.5px 1px #000000;
+    margin-top: 0px;
     padding-top: 50px;
+    padding-right: 1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-}
-
-.maps {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: linear-gradient(to bottom, #190d2c, #161e33);
+    margin-bottom: 0px;
 }
 
 .three-types-turismo {
-    width: 400px;
-    height: 600px;
+    width: 200px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -310,8 +244,8 @@ body {
 }
 
 .three-types-turismo:hover {
-    width: 410px;
-    height: 610px;
+    width: 220px;
+    height: 320px;
 }
 
 
@@ -377,5 +311,7 @@ body {
     width: 150px;
     height: 150px;
 }
-
+ul {
+    list-style:none
+}
 
